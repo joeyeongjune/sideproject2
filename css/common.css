@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    width: 900px;
+    color: blueviolet;
+    background-color: #c8e6c9;
+}
+header {
+    height: 80px;
+    background-color: lightgray;
+    font-size: large;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: greenyellow;    
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: green;
+    color: white;
+}
